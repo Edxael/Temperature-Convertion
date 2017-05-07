@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Temperature</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="top wrap">
+            <h1>Temperature Conversion</h1>
+            <p>There are several scales to measure the temperature, the two more used are the Celcius and Fahrenheit. this basic App will do the conversion for you. </p>
+        </div>
+
+        <div class="center wrap">
+            <label class="label-1" for="perc">Temperature to convert:</label><br>
+            <input type="text" id="num1" class="input1 inputG">
+            <br><br>
+
+            <label class="label-1" for="perc">Convert To:</label><br>
+            <button class="button1" type="button" onclick="toCels()">Celcius</button>
+            <button class="button1" type="button" onclick="toFahr()">Fahrenheit</button>
+            <br><br>
+
+            <label class="label-1" for="perc">The temperature conversion is:</label><br>
+            <input type="text" id="num2" class="input2 inputG">
+            <br>
+
+            <p>-----------</p>
+            <button class="button-clean" type="button" onclick="clean()">Clean calculations</button>
+        </div>
+
+        <div class="bottom wrap">
+            <p>by: Edmundo Rubio</p>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="code.js">
+
+    </script>
+</html>
